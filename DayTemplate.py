@@ -20,7 +20,7 @@ with open("Inputs/DayX_input.txt","r") as f:
         continue
 
 #Checking the parsing (if necessary):
-#print(data)
+#print(data[:10])
 
 ################################################PART 1################################################
 print("Part 1:")
