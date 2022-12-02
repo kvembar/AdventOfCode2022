@@ -34,7 +34,7 @@ print("Part 1:")
 score = 0
 
 for i in data:
-    #Score based off of what I got.
+    #Score based off of what I played.
     score += ord(i[1]) - 87
     #Tie conditions
     if (i in [['A','X'],['B','Y'],['C','Z']]):
