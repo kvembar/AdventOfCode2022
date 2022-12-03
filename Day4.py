@@ -17,7 +17,6 @@ data = []
 with open("Inputs/Day4_input.txt","r") as f:
     for line in f:
         data.append(parse(line))
-        continue
 
 #Checking the parsing (if necessary):
 #print(data[:10])
