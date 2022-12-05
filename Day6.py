@@ -1,4 +1,4 @@
-#Day X: Description goes here
+#Day 6: Description goes here
 
 ################################################FUNCTIONS################################################
 
@@ -16,7 +16,7 @@ def parse(data):
 ################################################PARSING################################################
 
 #Sending raw data to the parser
-with open("Inputs/DayX_input.txt","r") as f:
+with open("Inputs/Day6_input.txt","r") as f:
     raw = f.read().split("\n")
     data = parse(raw)
 
