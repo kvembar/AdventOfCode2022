@@ -11,7 +11,7 @@ def parse(data):
 
         parsed.append(line)
 
-    return line
+    return parsed
 
 ################################################PARSING################################################
 
