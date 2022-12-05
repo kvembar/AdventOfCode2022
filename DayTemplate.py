@@ -7,8 +7,7 @@ def parse(data):
     parsed = []
 
     for line in data:
-        line = line.rstrip("\n")
-
+        #Append line to returned data, parsed to a usable format.
         parsed.append(line)
 
     return parsed
