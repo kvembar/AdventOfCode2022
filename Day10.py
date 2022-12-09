@@ -1,4 +1,4 @@
-#Day X: Description goes here
+#Day 10: Description goes here
 
 ################################################FUNCTIONS################################################
 
@@ -23,7 +23,7 @@ def transverse(data):
 ################################################PARSING################################################
 
 #Sending raw data to the parser
-with open("Inputs/DayX_input.txt","r") as f:
+with open("Inputs/Day10_input.txt","r") as f:
     raw = f.read().split("\n")
     data = parse(raw)
 
