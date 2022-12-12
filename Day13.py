@@ -1,4 +1,4 @@
-#Day X: Description goes here
+#Day 13: Description goes here
 
 ################################################FUNCTIONS################################################
 
@@ -50,7 +50,7 @@ def get_neighbors(data, i, j):
 ################################################PARSING################################################
 
 #Sending raw data to the parser
-with open("Inputs/DayX_input.txt","r") as f:
+with open("Inputs/Day13_input.txt","r") as f:
     raw = f.read().split("\n")
     data = parse(raw)
 
